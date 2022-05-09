@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8a828c2969.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <title>Lista Compra</title>
+</head>
+<body>
+    <div id="contenedor">
+        <div class="animaciones">
+            <p class="vacio">a</p>
+            <p class="añadido">Elemento añadido</p>
+            <p class="borrado">Elemento borrado</p>
+            <p class="borrados">Elementos borrados</p>
+            <p class="editado">Elemento editado</p>
+            <h1 class="titulo">Lista de la Compra</h1>
+        </div>
+        <div class="form" id="guardar">
+            <input type="text" name="input" placeholder="e.g. eggs" value="" id="input">
+            <input type="submit" class="guardar"  value="Guardar" onclick="guardar()">
+        </div>
+        <div class="form" id="editar">
+            <input type="text" name="input" placeholder="e.g. eggs" value="" id="inpute">
+            <input type="submit" class="editar"  value="Editar" onclick="editar(iditar)">
+        </div>
+        <div class="elementos"></div>
+        <p class="borrar">Borrar elementos</p>
+    </div>
+</body>
+</html>
+
